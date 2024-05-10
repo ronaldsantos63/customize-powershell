@@ -11,7 +11,7 @@ Personalização do windows terminal
   - [PSReadline](https://github.com/PowerShell/PSReadLine)
   - Cascadia Nerd Font
   - Terminal Icons
-  - Posh-Git
+  - [Posh-Git](https://github.com/dahlbyk/posh-git)
   - [PSAutoenv](https://github.com/nickcox/ps-autoenv)
 
 ## Instalando ferramentas
@@ -81,6 +81,7 @@ Install-Module posh-git -Scope CurrentUser
 ```
 
 Instalar PSAutoenv
+
 ```powershell
 Install-Module ps-autoenv
 ```
