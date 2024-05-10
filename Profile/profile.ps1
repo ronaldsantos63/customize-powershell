@@ -15,6 +15,8 @@ Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
 
+# Auto env
+Import-Module ps-autoenv
 
 Clear-Host
 Write-Host "Bem-vindo, $($env:USERNAME)!"

@@ -12,6 +12,7 @@ Personalização do windows terminal
   - Cascadia Nerd Font
   - Terminal Icons
   - Posh-Git
+  - [PSAutoenv](https://github.com/nickcox/ps-autoenv)
 
 ## Instalando ferramentas
 
@@ -77,6 +78,11 @@ Instalar Posh-Git
 
 ```powershell
 Install-Module posh-git -Scope CurrentUser
+```
+
+Instalar PSAutoenv
+```powershell
+Install-Module ps-autoenv
 ```
 
 ## Configurando tudo
